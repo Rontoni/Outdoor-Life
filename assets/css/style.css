@@ -13,7 +13,8 @@ html {
 body {
     font-family: Fjalla One, sans-serif;
     color: whitesmoke;
-    background-color: #377CEA;
+    background-color: red;
+    
 }
 
 nav {
@@ -74,3 +75,4 @@ a {
 .nav-item:hover a {
     color: #377CEA;
 }
+
