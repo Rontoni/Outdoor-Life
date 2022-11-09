@@ -13,7 +13,7 @@ html {
 body {
     font-family: Fjalla One, sans-serif;
     color: whitesmoke;
-    background-color: red;
+    background-color: #377CEA;
     
 }
 
@@ -76,3 +76,33 @@ a {
     color: #377CEA;
 }
 
+.container1 {
+    background-color: #895A14;
+    margin: auto;
+    margin-top: 15px;
+    width: 35%;
+    padding: 10px;
+    border: 2px groove whitesmoke;
+    
+    
+    
+    
+}
+
+.intro h2 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    margin-top: 10px;
+    padding: 1px;
+    
+}
+
+.intro p {
+    font-family: Cantarell, sans-serif;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
