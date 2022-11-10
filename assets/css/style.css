@@ -96,6 +96,7 @@ a {
     text-align: center;
     margin-top: 10px;
     padding: 1px;
+    letter-spacing: 2px;
     
 }
 
@@ -127,6 +128,25 @@ a {
 }
 
 .terrain2 {
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.stf {
+    background-color: #895A14;
+    height: 1000px;
+    width: 200px;
+    float: right;
+    z-index: 9;
+}
+
+.stf {
+    background-color: #895A14;
+    height: 1000px;
+    width: 200px;
+    float: right;
+    margin-top: -1200px;
+    margin-right: 700px;
     border: 1px solid whitesmoke;
     border-radius: 20px;
 }
