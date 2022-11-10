@@ -76,6 +76,7 @@ a {
     color: #377CEA;
 }
 
+
 .container1 {
     background-color: #895A14;
     margin: auto;
@@ -83,6 +84,7 @@ a {
     width: 35%;
     padding: 10px;
     border: 2px groove whitesmoke;
+    border-radius: 20px;
     
     
     
@@ -112,11 +114,19 @@ a {
 .intro li {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     position: relative;
-    left: 500px;
+    left: 400px;
     font-size: large;
     
 } 
 
 #terrain {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.terrain2 {
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
 }
