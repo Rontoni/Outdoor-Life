@@ -13,7 +13,9 @@ html {
 body {
     font-family: Fjalla One, sans-serif;
     color: whitesmoke;
-    background-color: #377CEA;
+
+   /* Background image taken by me at the top of the mountain skierfe, looking down on the river delta */ 
+    background: url('../images/skierfe.JPG') no-repeat center center;
     
 }
 
