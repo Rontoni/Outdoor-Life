@@ -139,7 +139,7 @@ a {
     border-radius: 20px;
 }
 
- /* Styling for aside box */
+ /* Styling for aside boxes */
 
 .stf {
     background-color: #895A14;
@@ -169,7 +169,36 @@ a {
     
 }
 
-/* Link to external site */
+.sveaskog {
+    background-color: #895A14;
+    height: 650px;
+    width: 200px;
+    float: left;
+    margin-top: -700px;
+    margin-left: 1000px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+
+}
+
+.sveaskog h3 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    margin-top: 10px;
+    padding: 1px;
+    letter-spacing: 2px;
+    font-size: large;
+
+}
+
+.sveaskog p {
+    font-family: Cantarell, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Links to external sites */
 
 #link1 {
     display: flex;
@@ -183,3 +212,8 @@ a {
     color: #377CEA;
 }
 
+#link2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
