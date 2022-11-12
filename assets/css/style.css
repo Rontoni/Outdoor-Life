@@ -21,10 +21,11 @@ body {
 
    /* Footer content */
 
-.container2 {
-    background-color: #377CEA;
-    height: 100px;
+footer {
+    height: 200px;
 }
+
+
 
 /* Logo and Navigation content */
 
