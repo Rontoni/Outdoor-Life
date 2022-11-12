@@ -19,6 +19,13 @@ body {
     
 }
 
+   /* Footer content */
+
+.container2 {
+    background-color: #377CEA;
+    height: 100px;
+}
+
 /* Logo and Navigation content */
 
 nav {
@@ -216,4 +223,8 @@ a {
     display: flex;
     justify-content: center;
     text-decoration: none;
+}
+
+#link2:hover {
+    color: #377CEA;
 }
