@@ -19,13 +19,6 @@ body {
     
 }
 
-   /* Footer content */
-
-footer {
-    height: 200px;
-}
-
-
 
 /* Logo and Navigation content */
 
@@ -228,4 +221,20 @@ a {
 
 #link2:hover {
     color: #377CEA;
+}
+
+   /* Footer content */
+
+   footer {
+    height: 300px;
+    
+}
+
+.sociallinks h3 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.equipmentlinks h3 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
