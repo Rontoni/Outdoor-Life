@@ -8,13 +8,15 @@ html {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
     font-family: Fjalla One, sans-serif;
     color: whitesmoke;
 
-   /* Background image taken by me at the top of the mountain skierfe, looking down on the river delta */ 
+   /* Background image taken by me at the top of the mountain Skierfe, looking down on the river delta */ 
     background: url('../images/skierfe.JPG') no-repeat center center;
     
 }
@@ -67,7 +69,6 @@ a {
 
 .nav-item a {
     display: inline-block;
-    text-decoration: none;
     color: whitesmoke;
     padding: 0.5rem 1.0rem;
 
@@ -121,7 +122,7 @@ a {
 .intro li {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     position: relative;
-    left: 400px;
+    left: 550px;
     font-size: large;
     
 } 
@@ -204,7 +205,7 @@ a {
 #link1 {
     display: flex;
     justify-content: center;
-    text-decoration: none;
+    
     
 
 }
@@ -216,7 +217,6 @@ a {
 #link2 {
     display: flex;
     justify-content: center;
-    text-decoration: none;
 }
 
 #link2:hover {
@@ -225,16 +225,78 @@ a {
 
    /* Footer content */
 
-   footer {
-    height: 300px;
+footer {
+    width: 100vh;
+    display: block;
+    box-sizing: content-box;
+    background: url('../images/fireplace.jpg') no-repeat center center;
+    border: solid 1px whitesmoke;
+    margin: auto;
+    max-height: 200px;
     
 }
 
-.sociallinks h3 {
+
+.footerlogo h1 {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 260%;
+    font-weight: 300;
+    letter-spacing: 2px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: flex;
+    justify-content: center;
 
 }
 
-.equipmentlinks h3 {
+.sociallinks {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    position: relative; top: -50px;
+    
+
+}
+
+.sociallinks h2 {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: whitesmoke;
+}
+
+.sociallinks li {
+    margin-left: 45px;
+    margin-top: 10px;
+    
+}
+
+.sociallinks li a:hover {
+    color: #377CEA;
+}
+
+.equipmentlinks {
+    position: relative; top: -250px;
+    margin-left: 1120px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.equipmentlinks h2 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: whitesmoke;
+
+}
+
+.equipmentlinks li {
+    margin-left: 45px;
+    margin-top: 10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.equipmentlinks a {
+    color: whitesmoke;
+}
+
+.equipmentlinks li a:hover {
+    color: #377CEA;
 }
