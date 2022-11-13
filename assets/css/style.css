@@ -233,7 +233,8 @@ footer {
     border: solid 1px whitesmoke;
     margin: auto;
     max-height:  200px;
-
+    position: relative;
+    bottom: 0;
     
 }
 
@@ -252,9 +253,10 @@ footer {
 
 .sociallinks {
     display: flex;
-    justify-content: left;
+    justify-content: start;
     flex-direction: column;
     position: relative; top: -50px;
+
     
 
 }
@@ -321,5 +323,33 @@ footer {
     max-width: 100%;
     max-height: 100%;
     border: solid 1px whitesmoke;
+    border-radius: 20px;
+}
+
+/* Video I filmed at the Kings Trail in Sweden */
+
+.movie1 {
+    display: flex;
+    justify-content: end;
+    position: relative; top: -1000px; right: 60px;
+    
+    
+    
+    
+}
+
+.movie1 iframe {
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+}
+
+.campcontainer {
+    background-color: #895A14;
+    margin: auto;
+    margin-top: -1800px;
+    width: 45%;
+    height: 800px;
+    padding: 10px;
+    border: 2px groove whitesmoke;
     border-radius: 20px;
 }
