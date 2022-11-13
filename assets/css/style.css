@@ -301,3 +301,25 @@ footer {
 .equipmentlinks li a:hover {
     color: #377CEA;
 }
+
+
+
+/*Camping html page section */
+
+#dog {
+    height: 1200px;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+   
+}
+
+/* Picture of my dog and my tent outside camping on an island */
+
+#dog img {
+    max-width: 100%;
+    max-height: 100%;
+    border: solid 1px whitesmoke;
+    border-radius: 20px;
+}
