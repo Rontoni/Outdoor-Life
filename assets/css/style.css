@@ -310,7 +310,7 @@ footer {
 
 #dog {
     position: relative;
-    height: 800px;
+    height: 1000px;
     width: 800px;
     margin-top: 50px;
     margin-left: 100px;
@@ -344,16 +344,15 @@ footer {
 
 
 .campcontent {
-    position: relative; left: 800px; top: -800px;
+    position: relative; left: 800px; top: -1000px;
     background-color: #895A14;
     height: 1000px;
     width: 50%;
     padding: 10px;
     border: 2px groove whitesmoke;
     border-radius: 20px;
-   
     
-    
+
 }
 
 .campcontent h2 {
