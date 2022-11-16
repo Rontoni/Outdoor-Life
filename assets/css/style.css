@@ -22,10 +22,6 @@ body {
      -webkit-font-smoothing: antialiased;
 }
 
-img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-}
 
 p {
     font-family: Cantarell, sans-serif;
@@ -75,6 +71,62 @@ h2, h3 {
 
 
 /* Introduction page content */
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.welcome h2 {
+    font-size: 30px;
+}
+
+.welcome p {
+    font-size: 18px;
+    padding-top: 10px;
+    text-shadow: white 0px 0px 10px;
+}
+
+.law {
+    display: flex;
+    display: inline-block;
+    justify-content: start;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-left: 60px;
+}
+
+.law h2 {
+    font-size: 30px;
+}
+
+.law li {
+    padding-top: 10px;
+    color: whitesmoke;
+} 
+
+.law p {
+    font-size: 18px;
+    padding-top: 10px;
+    text-shadow: white 0px 0px 10px;
+}
+
+#terrain {
+    position: absolute;
+    width:  600px;
+    height: 400px;
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: -20px;
+
+    
+}
+
 
 
 
