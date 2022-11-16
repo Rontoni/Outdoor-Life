@@ -156,13 +156,35 @@ h2, h3 {
     color: #377CEA;
 }
 
-
-
-
-
-
-
    /* Footer content */
+
+
+ .footer {
+    padding: 70px 0;
+    
+    
+ }
+
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url('../images/sunset.jpg') no-repeat center center;
+
+ }
+
+
+
+ .footer-col a {
+    color: whitesmoke;
+    
+
+ }
+
+ .footer-col a:hover {
+    background-color: #377CEA;
+ }
+
 
 
 
