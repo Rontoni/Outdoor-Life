@@ -82,50 +82,7 @@ a {
     color: #377CEA;
 }
 
-/* Styling for div containers in main body*/
 
-.container1 {
-    background-color: #895A14;
-    margin: auto;
-    margin-top: 15px;
-    width: 35%;
-    padding: 10px;
-    border: 2px groove whitesmoke;
-    border-radius: 20px;
-    
-    
-    
-    
-}
-
-.intro h2 {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-align: center;
-    margin-top: 10px;
-    padding: 1px;
-    letter-spacing: 2px;
-    
-}
-
-.intro p {
-    font-family: Cantarell, sans-serif;
-    text-align: center;
-    font-size: large;
-    padding: 10px;
-    font-weight: bold;
-    
-    
-}
-
-
-
-.intro li {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    position: relative;
-    left: 550px;
-    font-size: large;
-    
-} 
 
 /* Main image for introduction side */
 
@@ -141,87 +98,8 @@ a {
     border-radius: 20px;
 }
 
- /* Styling for aside boxes */
 
-.stf {
-    background-color: #895A14;
-    height: 650px;
-    width: 200px;
-    float: right;
-    margin-top: -700px;
-    margin-right: 1000px;
-    border: 1px solid whitesmoke;
-    border-radius: 20px;
-}
 
-.stf h3 {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-align: center;
-    margin-top: 10px;
-    padding: 1px;
-    letter-spacing: 2px;
-    font-size: large;
-}
-
-.stf p {
-    font-family: Cantarell, sans-serif;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    
-}
-
-.sveaskog {
-    background-color: #895A14;
-    height: 650px;
-    width: 200px;
-    float: left;
-    margin-top: -700px;
-    margin-left: 1000px;
-    border: 1px solid whitesmoke;
-    border-radius: 20px;
-
-}
-
-.sveaskog h3 {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-align: center;
-    margin-top: 10px;
-    padding: 1px;
-    letter-spacing: 2px;
-    font-size: large;
-
-}
-
-.sveaskog p {
-    font-family: Cantarell, sans-serif;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-}
-
-/* Links to external sites */
-
-#link1 {
-    display: flex;
-    justify-content: center;
-    
-    
-
-}
-
-#link1:hover {
-    color: #377CEA;
-}
-
-#link2 {
-    display: flex;
-    justify-content: center;
-}
-
-#link2:hover {
-    color: #377CEA;
-}
 
    /* Footer content */
 
@@ -342,52 +220,3 @@ footer {
     border-radius: 10px;
 }
 
-
-.campcontent {
-    position: relative; left: 800px; top: -1000px;
-    background-color: #895A14;
-    height: 1000px;
-    width: 50%;
-    padding: 10px;
-    border: 2px groove whitesmoke;
-    border-radius: 20px;
-    
-
-}
-
-.campcontent h2 {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-align: center;
-    margin-top: 10px;
-    padding: 1px;
-    letter-spacing: 2px;
-}
-
-.campcontent h3 {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-align: center;
-}
-
-.campcontent p {
-    font-family: Cantarell, sans-serif;
-    text-align: center;
-    font-size: large;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.campcontent li {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    position: relative;
-    left: 800px;
-    font-size: large;
-}
-
-#link3 {
-    display: flex;
-    justify-content: center;
-}
-
-#link3:hover {
-    color: #377CEA;
-}
