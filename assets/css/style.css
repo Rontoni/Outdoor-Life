@@ -27,6 +27,16 @@ img, picture, video, canvas, svg {
     max-width: 100%;
 }
 
+p {
+    font-family: Cantarell, sans-serif;
+}
+
+h2, h3 {
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
 
 /* Logo and Navigation content */
 
@@ -59,20 +69,13 @@ img, picture, video, canvas, svg {
     color: whitesmoke;
 }
 
-
-
-/* Main image for introduction side */
-
-#terrain {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar a.active {
+    color: #377CEA;
 }
 
-.terrain2 {
-    border: 1px solid whitesmoke;
-    border-radius: 20px;
-}
+
+/* Introduction page content */
+
 
 
 
@@ -178,18 +181,9 @@ footer {
     border-radius: 20px;
 }
 
-/* Video I filmed at the Kings Trail in Sweden */
 
-.movie1 {
-   position: relative; top: -600px;
-   float: right;
-   margin-right: 30px;
- 
-    
-}
 
-.movie1 iframe {
-    border: solid 1px whitesmoke;
-    border-radius: 10px;
-}
+
+
+
 
