@@ -169,7 +169,9 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: url('../images/sunset.jpg') no-repeat center center;
+    background: url('../images/sunset.jpg') no-repeat center center; 
+    
+    
 
  }
 
@@ -178,13 +180,39 @@ h2, h3 {
  .footer-col a {
     color: whitesmoke;
     
-
+ 
  }
+
 
  .footer-col a:hover {
     background-color: #377CEA;
  }
 
+ .footercol .social-links  {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.5 ease;
+ }
+
+
+ @media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+ }
+
+
+ @media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+       
+    }
+ }
 
 
 
