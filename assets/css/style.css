@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Fjalla+One&display=swap');
 
-
+html {
+    height: 100%;
+}
 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: Fjalla One, sans-serif;
+    color: black;
 }
 
 body {
-    font-family: Fjalla One, sans-serif;
-    color: whitesmoke;
-
+    
    /* Background image taken by me at the top of the mountain Skierfe, looking down on the river delta */ 
     background: url('../images/skierfe.JPG') no-repeat center center;
-    
+    height: 100%;
+     -webkit-font-smoothing: antialiased;
 }
 
 
@@ -87,7 +90,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
 }
 
 .terrain2 {
@@ -147,9 +149,6 @@ footer {
     
 }
 
-.sociallinks li a:hover {
-    color: #377CEA;
-}
 
 .equipmentlinks {
     position: relative; top: -250px;
