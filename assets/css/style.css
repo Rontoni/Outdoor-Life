@@ -106,7 +106,7 @@ h2, h3 {
 
 .law li {
     padding-top: 10px;
-    color: whitesmoke;
+    color: red;
 } 
 
 .law p {
@@ -127,88 +127,17 @@ h2, h3 {
     
 }
 
+.stf{
+    float: right;
+    margin-top: 40px;
+}
+
 
 
 
 
 
    /* Footer content */
-
-footer {
-    width: 100vh;
-    display: block;
-    box-sizing: content-box;
-    background: url('../images/fireplace.jpg') no-repeat center center;
-    border: solid 1px whitesmoke;
-    margin: auto;
-    max-height:  200px;
-    position: relative;
-    bottom: 0;
-    
-}
-
-
-.footerlogo h1 {
-    text-transform: uppercase;
-    color: whitesmoke;
-    font-size: 260%;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    display: flex;
-    justify-content: center;
-
-}
-
-.sociallinks {
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    position: relative; top: -50px;
-
-    
-
-}
-
-.sociallinks h2 {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: whitesmoke;
-}
-
-.sociallinks li {
-    margin-left: 45px;
-    margin-top: 10px;
-    
-}
-
-
-.equipmentlinks {
-    position: relative; top: -250px;
-    margin-left: 1120px;
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
-}
-
-.equipmentlinks h2 {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: whitesmoke;
-
-}
-
-.equipmentlinks li {
-    margin-left: 45px;
-    margin-top: 10px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.equipmentlinks a {
-    color: whitesmoke;
-}
-
-.equipmentlinks li a:hover {
-    color: #377CEA;
-}
 
 
 
