@@ -48,11 +48,12 @@ h2, h3 {
 }
 
 .navbar {
-    background-color: #895A14;
+    background-color: #2E6038;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border: solid 1px whitesmoke;
 }
 
 .navbar a {
@@ -62,7 +63,7 @@ h2, h3 {
 }
 
 .navbar a:hover {
-    background-color: #2E6038;
+    background-color: #895A14;
     color: whitesmoke;
 }
 
@@ -71,7 +72,7 @@ h2, h3 {
 }
 
 
-/* Introduction page content */
+/* Headers and Paragraph styling */
 
 .welcome {
     display: flex;
@@ -89,7 +90,6 @@ h2, h3 {
 .welcome p {
     font-size: 18px;
     padding-top: 10px;
-    text-shadow: white 0px 0px 10px;
 }
 
 .law {
@@ -113,9 +113,10 @@ h2, h3 {
 .law p {
     font-size: 18px;
     padding-top: 10px;
-    text-shadow: white 0px 0px 10px;
+    
 }
 
+/* Image taken by me while hiking the kings path */
 #terrain {
     position: absolute;
     width:  600px;
@@ -125,7 +126,7 @@ h2, h3 {
     margin-left: 350px;
     margin-top: -20px;
 
-    
+ 
 }
 
 /* Asides */ 
@@ -143,14 +144,18 @@ h2, h3 {
 
 .extrainfo p {
     font-size: 18px;
-    text-shadow: white 0px 0px 10px;
     text-align: center;
 }
 
+/* Links in main elements */
+
 #link {
     font-size: 30px;
-    color: #377CEA;
-    text-shadow: none;   
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    background-color: #2E6038;
+    border: solid 1px whitesmoke;
+    border-radius: 8px;
 }
 
 #link a:hover {
@@ -229,6 +234,63 @@ h2, h3 {
 /*Camping html page section */
 
 
+.camping {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.camping p {
+    font-size: 18px;
+}
 
 
 
+.campinglist li {
+    color: #377CEA;
+    font-size: 18px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#fire {
+    display: flex;
+    
+}
+
+.fire {
+    color: red;
+}
+
+#howidoit {
+    display: inline-block;
+    position: relative;
+    margin-left: 800px;
+    background-color: #2E6038;
+    border: solid 1px whitesmoke;
+}
+
+
+
+/* Stock image from pexels.com  of a tent in a forest */
+
+#tentpicture {
+    position: absolute;
+    height: 550px;
+    width: 420px;
+    margin-left: 1800px;
+    margin-top: -180px;
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+}
+
+/* Picture of my dog and my tent on an island */ 
+
+#dog  {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1000px;
+    width: 700px;
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+    
+}
