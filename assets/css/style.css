@@ -94,11 +94,14 @@ h2, h3 {
 
 .law {
     display: flex;
-    display: inline-block;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
+    text-align: center;
     padding-bottom: 30px;
-    margin-left: 100px;
+    margin: auto;
+    background-color: #2E6038;
+    width: 40%;
+    border: solid 1px whitesmoke;
 }
 
 .law h2 {
@@ -118,13 +121,14 @@ h2, h3 {
 
 /* Image taken by me while hiking the kings path */
 #terrain {
-    position: absolute;
-    width:  600px;
-    height: 400px;
+    display: flex;
+    width:  800px;
+    height: 600px;
     border: solid 1px whitesmoke;
     border-radius: 10px;
-    margin-left: 350px;
-    margin-top: -20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
  
 }
@@ -261,36 +265,55 @@ h2, h3 {
 }
 
 #howidoit {
-    display: inline-block;
-    position: relative;
-    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #2E6038;
     border: solid 1px whitesmoke;
+    width: 40%;
+    margin: auto;
 }
 
 
 
-/* Stock image from pexels.com  of a tent in a forest */
 
-#tentpicture {
-    position: absolute;
-    height: 550px;
-    width: 420px;
-    margin-left: 1800px;
-    margin-top: -180px;
-    border: solid 1px whitesmoke;
-    border-radius: 10px;
-}
 
 /* Picture of my dog and my tent on an island */ 
 
 #dog  {
-    text-align: center;
+    display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin: auto;
     height: 1000px;
     width: 700px;
     border: solid 1px whitesmoke;
     border-radius: 10px;
-    
+
+}
+
+/*Canoeing html page section */
+
+
+.canoecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#canoe {
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+}
+
+.canoeing {
+    display: flex;
+    justify-content: start;
+    padding-top: 10px;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.canoeing p {
+    font-size: 18px;
 }
