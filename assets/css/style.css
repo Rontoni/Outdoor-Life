@@ -257,7 +257,9 @@ h2, h3 {
 
 #fire {
     display: flex;
-    
+    justify-content: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 10px;
 }
 
 .fire {
@@ -307,13 +309,28 @@ h2, h3 {
 
 .canoeing {
     display: flex;
-    justify-content: start;
-    padding-top: 10px;
+    justify-content: center;
     flex-direction: column;
-    margin-top: -20px;
-    margin-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
 }
 
 .canoeing p {
     font-size: 18px;
 }
+
+#life {
+    color: yellowgreen;
+}
+
+#canoeing2 {
+
+    background-color: #2E6038;
+    border: solid 1px whitesmoke;
+    width: 40%;
+    margin: auto;
+  
+}
+
