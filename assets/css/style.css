@@ -25,6 +25,7 @@ body {
 
 p {
     font-family: Cantarell, sans-serif;
+    color: whitesmoke;
 }
 
 h2, h3 {
@@ -169,7 +170,8 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: url('../images/sunset.jpg') no-repeat center center; 
+    background-color: #2E6038;
+    border: solid 1px whitesmoke;
     
     
 
@@ -188,7 +190,7 @@ h2, h3 {
     background-color: #377CEA;
  }
 
- .footercol .social-links  {
+ .footer-col .social-links  {
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -196,6 +198,14 @@ h2, h3 {
     text-align: center;
     line-height: 40px;
     transition: all 0.5 ease;
+ }
+
+ .equipment {
+    line-height: 2;
+ }
+
+ .iconcontainer {
+    margin-top: 20px;
  }
 
 
@@ -216,28 +226,7 @@ h2, h3 {
 
 
 
-/*Camping html page body section */
-
-#dog {
-    position: relative;
-    height: 1000px;
-    width: 800px;
-    margin-top: 50px;
-    margin-left: 100px;
-    
-   
-}
-
-/* Picture of my dog and my tent outside camping on an island */
-
-#dog img {
-    max-width: 100%;
-    max-height: 100%;
-    border: solid 1px whitesmoke;
-    border-radius: 20px;
-}
-
-
+/*Camping html page section */
 
 
 
