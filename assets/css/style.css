@@ -37,6 +37,8 @@ h2, h3 {
 }
 
 
+
+
 p {
     font-family: Cantarell, sans-serif;
     color: whitesmoke;
@@ -275,6 +277,9 @@ p {
     margin: auto;
 }
 
+#howidoit h2 {
+    text-transform: uppercase;
+}
 
 
 
@@ -319,7 +324,7 @@ p {
 }
 
 
-#life {
+#gear {
     color: yellowgreen;
 }
 
@@ -330,6 +335,10 @@ p {
     width: 40%;
     margin: auto;
   
+}
+
+#canoeing2 h2 {
+    text-transform: uppercase;
 }
 
 
@@ -360,3 +369,64 @@ p {
     width: 40%;
     margin: auto;
 }
+
+#hiking2 h2 {
+    text-transform: uppercase;
+}
+
+
+/* Outdoor news html page section */
+
+
+
+.signform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: url('../images/sunset.jpg') no-repeat center center;
+    height: 800px;
+    
+}
+
+/* Background picture taken by me of my friend packing his canoe (I got his permission to use the picture) */ 
+
+.email {
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border: solid 1px whitesmoke;
+}
+
+label {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.password {
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border: solid 1px whitesmoke;
+}
+
+.signup {
+    background-color: #2E6038;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+
+
+
+
