@@ -89,17 +89,17 @@ p {
 }
 
 .navbar a.active {
-    color: #377CEA;
+    color: gold;
 }
 
 /*links in main pages*/
 
-.boxes aside a {
+.boxes a {
     text-decoration: none;
     color: gold;
 }
 
-.boxes aside a:hover {
+.boxes a:hover {
     background-color: #895A14;
 }
 
