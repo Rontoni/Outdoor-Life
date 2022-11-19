@@ -1,62 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Fjalla+One&display=swap');
 
-html {
-    height: 100%;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: Fjalla One, sans-serif;
-    color: black;
+    
+
+}
+
+
+html {
+    height: 100%;  
 }
 
 body {
-    
-   /* Background image taken by me at the top of the mountain Skierfe, looking down on the river delta */ 
-    background: url('../images/skierfe.JPG') no-repeat center center;
     height: 100%;
-     -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    /*width: fit-content;*/
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Fjalla One', sans-serif;
+    /* Background image taken by me at the top of the mountain Skierfe, looking down on the river delta. */
+    background: url('../images/skierfe.JPG') no-repeat center center;
+
 }
 
 
-/* General rules for headers and paragraphs*/
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* General rules for headers and paragraphs */
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 h2 {
     font-size: 30px;
 }
 
-
-h2, h3 {
-    color: whitesmoke;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-}
-
-
-
-
 p {
-    font-family: Cantarell, sans-serif;
-    color: whitesmoke;
-    font-size: 18px;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18;
+    font-weight: bold;
 }
-
-
 
 /* Logo and Navigation content */
 
-
 #logo {
-    display: flex;
-    justify-content: center;
     font-size: 100px;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-transform: uppercase;
+}
+
+.navbar {
+    background-color: #2E6038;
+    overflow: hidden;
+    flex-direction: row;
+    border: solid 1px whitesmoke;
+}
+
+/*
+
+
 
 }
 
@@ -85,7 +102,7 @@ p {
 }
 
 
-/* Headers and Paragraph styling */
+/* Headers and Paragraph styling 
 
 .welcome {
     display: flex;
@@ -125,7 +142,7 @@ p {
     padding-top: 10px;
 }
 
-/* Image taken by me while hiking the kings trail */
+/* Image taken by me while hiking the kings trail 
 #terrain {
     display: flex;
     width:  800px;
@@ -139,7 +156,7 @@ p {
  
 }
 
-/* Asides */ 
+/* Asides 
 
 #wrapper1 {
     display: flex;
@@ -156,7 +173,7 @@ p {
     text-align: center;
 }
 
-/* Links in main elements */
+/* Links in main elements 
 
 #link {
     font-size: 30px;
@@ -171,7 +188,7 @@ p {
     color: #377CEA;
 }
 
-   /* Footer content */
+   /* Footer content 
 
 
  .footer {
@@ -242,7 +259,7 @@ p {
 
 
 
-/* Camping html page section */
+/* Camping html page section 
 
 
 .camping {
@@ -284,7 +301,7 @@ p {
 
 
 
-/* Picture of my dog and my tent on an island */ 
+/* Picture of my dog and my tent on an island 
 
 #dog  {
     display: flex;
@@ -298,7 +315,7 @@ p {
 
 }
 
-/* Canoeing html page section */
+/* Canoeing html page section 
 
 
 .canoecontainer {
@@ -306,7 +323,7 @@ p {
     justify-content: center;
 }
 
-/* Picture of me sitting by a fire and canoe */
+/* Picture of me sitting by a fire and canoe 
 
 #canoe {
     border: solid 1px whitesmoke;
@@ -341,8 +358,7 @@ p {
     text-transform: uppercase;
 }
 
-
-/* Hiking html page section */
+/* Hiking html page section 
 
 .hiking {
     display: flex;
@@ -375,7 +391,7 @@ p {
 }
 
 
-/* Outdoor news html page section */
+/* Outdoor news html page section 
 
 
 
@@ -391,7 +407,7 @@ p {
     
 }
 
-/* Background picture taken by me of my friend packing his canoe (I got his permission to use the picture) */ 
+/* Background picture taken by me of my friend packing his canoe (I got his permission to use the picture) 
 
 .email {
     border-radius: 20px;
@@ -426,7 +442,6 @@ label {
 
 }
 
-
-
+*/
 
 
