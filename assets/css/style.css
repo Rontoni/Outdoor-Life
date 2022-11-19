@@ -56,7 +56,6 @@ h2 {
 
 p {
     font-family: 'Cantarell', sans-serif;
-    font-size: 18;
     font-weight: bold;
 }
 
@@ -80,8 +79,9 @@ p {
 .navbar a {
     color: whitesmoke;
     padding: 14px 16px;
-    font-size: 18;
+    font-size: 24;
     text-decoration: none;
+
 }
 
 .navbar a:hover {
@@ -239,8 +239,4 @@ form .input-box input {
 .movie2 {
     margin-bottom: 30px;
 }
-
-
-/* Media queries */
-
 
