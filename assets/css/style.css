@@ -248,3 +248,10 @@ form .input-box input {
     
 }
 
+@media screen and (max-width: 340px) {
+     header #logo {
+        font-size: 40px;
+    }
+}
+    
+
