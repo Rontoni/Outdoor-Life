@@ -95,14 +95,15 @@ p {
 
 /*links in main pages*/
 
-#link {
+.boxes aside a {
     text-decoration: none;
     color: gold;
 }
 
-#link:hover {
+.boxes aside a:hover {
     background-color: #895A14;
 }
+
 
 /* Main pages styling */
 
@@ -184,9 +185,10 @@ p {
     text-align: end;
 }
 
-.infocol3 ul a {
+.infocol3 a {
     color: gold;
 }
+
 
 /* Image rules for the rest of the pages */ 
 
