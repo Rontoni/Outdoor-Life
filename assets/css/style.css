@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     
 
 }
@@ -36,6 +37,8 @@ input, button, textarea, select {
     font: inherit;
 }
 
+
+
 /* General rules for headers and paragraphs */
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -63,6 +66,8 @@ p {
     font-size: 100px;
     text-transform: uppercase;
 }
+
+
 
 .navbar {
     background-color: #2E6038;
@@ -107,8 +112,8 @@ p {
 
 .boxes li {
     padding: 10px;
-    color: red;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: gold;
+    
 } 
 
 /* Image taken by me while hiking the kings trail */
@@ -131,14 +136,60 @@ p {
 
 aside a {
     text-decoration: none;
+    color: gold;
 }
 
 aside a:hover {
     background-color: #895A14;
-    color: whitesmoke;
+    
+    
 }
 
+/* Footer content */ 
 
+.footercontainer {
+    padding: 10px;
+    background-color: #2E6038;
+    border: solid 1px whitesmoke;
+}
+
+.footerrow {
+    justify-content: space-around;
+}
+
+.infocol1 {
+    text-align: start;   
+}
+
+.infocol1 li {
+    list-style: none;
+}
+
+.infocol1 li a {
+    text-decoration: none;
+    color: gold;
+}
+
+.infocol1 li a:hover {
+    background-color: #895A14;
+}
+
+.infocol2 {
+    margin-top: -100px;
+    color: gold;
+}
+
+.infocol3 {
+    text-align: end;
+}
+
+.infocol3 ul a {
+    color: gold;
+}
+
+.infocol3 ul a:hover {
+    background-color: whitesmoke;
+}
 
 
 
