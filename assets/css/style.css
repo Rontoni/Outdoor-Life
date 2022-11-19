@@ -93,7 +93,18 @@ p {
     color: #377CEA;
 }
 
-/* Introduction page styling */
+/*links in main pages*/
+
+#link {
+    text-decoration: none;
+    color: gold;
+}
+
+#link:hover {
+    background-color: #895A14;
+}
+
+/* Main pages styling */
 
 .container {
     padding: 10px;    
@@ -116,34 +127,24 @@ p {
     
 } 
 
-/* Image taken by me while hiking the kings trail */
+.experience {
+    text-transform: uppercase;
+}
 
-.imagecontainer1 {
+/* Image container properties */
+
+.imagecontainer {
     border: solid 1px whitesmoke;
     margin-top: 10px;
     margin-bottom: 10px;
     
 }
-
+/* Image taken by me while hiking the kings trail */
 #terrain {
     height: auto;
-    width: 100%;
-    
+    width: 100%;  
 }
 
-/* Asides */
-
-
-aside a {
-    text-decoration: none;
-    color: gold;
-}
-
-aside a:hover {
-    background-color: #895A14;
-    
-    
-}
 
 /* Footer content */ 
 
@@ -187,138 +188,22 @@ aside a:hover {
     color: gold;
 }
 
-.infocol3 ul a:hover {
-    background-color: whitesmoke;
-}
+/* Image rules for the rest of the pages */ 
 
-
-
-   /* Footer content 
-
-
- .footer {
-    padding: 70px 0;
-    
-    
- }
-
- .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #2E6038;
-    border: solid 1px whitesmoke;
-    
-    
-
- }
-
-
-
- .footer-col a {
-    color: whitesmoke;
-    
- 
- }
-
-
- .footer-col a:hover {
-    background-color: #377CEA;
- }
-
- .footer-col .social-links  {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    transition: all 0.5 ease;
-    text-transform: uppercase;
- }
-
- .equipment {
-    line-height: 2;
-    text-transform: uppercase;
- }
-
- .iconcontainer {
-    margin-top: 20px;
- }
-
-
- @media(max-width: 767px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
- }
-
-
- @media(max-width: 574px) {
-    .footer-col {
-        width: 100%;
-       
-    }
- }
-
-
-
-/* Camping html page section 
-
-
-.camping {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.campinglist li {
-    color: #377CEA;
-    font-size: 18px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-#fire {
-    display: flex;
-    justify-content: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-bottom: 10px;
-}
-
-.fire {
-    color: red;
-}
-
-#howidoit {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #2E6038;
-    border: solid 1px whitesmoke;
-    width: 40%;
-    margin: auto;
-}
-
-#howidoit h2 {
-    text-transform: uppercase;
-}
-
-
-
-
-/* Picture of my dog and my tent on an island 
-
-#dog  {
-    display: flex;
+.imagecontainer2 {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin: auto;
-    height: 1000px;
-    width: 700px;
-    border: solid 1px whitesmoke;
-    border-radius: 10px;
-
 }
+
+#images {
+    margin: auto;
+    border: 1px solid whitesmoke;
+}
+
+/* Movie filmed by me of our camp site while hiking the kings trail */
+
+
+/*
 
 /* Canoeing html page section 
 
