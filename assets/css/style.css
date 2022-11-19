@@ -200,138 +200,47 @@ p {
     border: 1px solid whitesmoke;
 }
 
-/* Movie filmed by me of our camp site while hiking the kings trail */
 
 
-/*
-
-/* Canoeing html page section 
-
-
-.canoecontainer {
-    display: flex;
-    justify-content: center;
-}
-
-/* Picture of me sitting by a fire and canoe 
-
-#canoe {
-    border: solid 1px whitesmoke;
-    border-radius: 10px;
-}
-
-.canoeing {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-   
-}
-
-
-#gear {
-    color: yellowgreen;
-}
-
-#canoeing2 {
-
-    background-color: #2E6038;
-    border: solid 1px whitesmoke;
-    width: 40%;
-    margin: auto;
-  
-}
-
-#canoeing2 h2 {
-    text-transform: uppercase;
-}
-
-/* Hiking html page section 
-
-.hiking {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-
-.movie1 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#hiking2 {
-    background-color: #2E6038;
-    border: solid 1px whitesmoke;
-    width: 40%;
-    margin: auto;
-}
-
-#hiking2 h2 {
-    text-transform: uppercase;
-}
-
-
-/* Outdoor news html page section 
-
-
-
-.signform {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background: url('../images/sunset.jpg') no-repeat center center;
-    height: 800px;
-    
-}
-
-/* Background picture taken by me of my friend packing his canoe (I got his permission to use the picture) 
-
-.email {
-    border-radius: 20px;
-    padding: 10px;
-    width: 300px;
-    text-align: center;
-    border: solid 1px whitesmoke;
-}
-
+/* Sign up Form */ 
 label {
-    color: whitesmoke;
-    font-size: 18px;
+    color: whitesmoke;   
 }
 
-.password {
-    border-radius: 20px;
-    padding: 10px;
-    width: 300px;
-    text-align: center;
+.signupwrapper {
+    background: #2E6038;
     border: solid 1px whitesmoke;
-}
-
-.signup {
-    background-color: #2E6038;
-    color: whitesmoke;
     border-radius: 10px;
-    font-size: 18px;
-    width: 100px;
-    margin-top: 20px;
-    text-transform: uppercase;
-    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.wrapper form {
+    margin-top: 30px;
+}
+
+.signupwrapper form .input-box {
+    height: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+    text-align: center;
 
 }
 
-*/
+/* Movie in outdoornews.html */ 
+
+.movie2 {
+    margin-bottom: 30px;
+}
+
+
+/* Media queries */
 
 
