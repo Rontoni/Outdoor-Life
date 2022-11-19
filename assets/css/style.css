@@ -69,27 +69,14 @@ p {
     overflow: hidden;
     flex-direction: row;
     border: solid 1px whitesmoke;
-}
-
-/*
-
-
-
-}
-
-.navbar {
-    background-color: #2E6038;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: solid 1px whitesmoke;
+    width: 100%;
 }
 
 .navbar a {
     color: whitesmoke;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: 18;
+    text-decoration: none;
 }
 
 .navbar a:hover {
@@ -101,92 +88,59 @@ p {
     color: #377CEA;
 }
 
+/* Introduction page styling */
 
-/* Headers and Paragraph styling 
-
-.welcome {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 40px;
-    text-align: center;
-
+.container {
+    padding: 10px;    
 }
 
-.welcome p {
-    padding-top: 10px;
-}
-
-.law {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 30px;
-    margin: auto;
-    background-color: #2E6038;
-    width: 40%;
-    border: solid 1px whitesmoke;
-}
-
-.law h2 {
-    font-size: 30px;
-}
-
-.law li {
-    padding-top: 10px;
-    color: red;
-} 
-
-.law p {
-    padding-top: 10px;
-}
-
-/* Image taken by me while hiking the kings trail 
-#terrain {
-    display: flex;
-    width:  800px;
-    height: 600px;
+.boxes {
+    background-color: rgba(46, 96, 56, 0.7);
+    padding: 10px;
     border: solid 1px whitesmoke;
     border-radius: 10px;
-    margin: auto;
+}
+
+.boxes ul {
+    list-style: none;
+}
+
+.boxes li {
+    padding: 10px;
+    color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} 
+
+/* Image taken by me while hiking the kings trail */
+
+.imagecontainer1 {
+    border: solid 1px whitesmoke;
     margin-top: 10px;
     margin-bottom: 10px;
-
- 
+    
 }
 
-/* Asides 
-
-#wrapper1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 80px;
+#terrain {
+    height: auto;
+    width: 100%;
+    
 }
 
-.extrainfo h3 {
-    font-size: 30px;
-    text-align: center;
+/* Asides */
+
+
+aside a {
+    text-decoration: none;
 }
 
-.extrainfo p {
-    text-align: center;
-}
-
-/* Links in main elements 
-
-#link {
-    font-size: 30px;
+aside a:hover {
+    background-color: #895A14;
     color: whitesmoke;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-    background-color: #2E6038;
-    border: solid 1px whitesmoke;
-    border-radius: 8px;
 }
 
-#link a:hover {
-    color: #377CEA;
-}
+
+
+
 
    /* Footer content 
 
