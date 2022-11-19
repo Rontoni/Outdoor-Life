@@ -241,3 +241,10 @@ form .input-box input {
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 450px) {
+    body {
+        background: black;
+    }
+    
+}
+
