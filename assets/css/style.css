@@ -226,6 +226,7 @@ label {
     border-radius: 10px;
 }
 
+
 form .input-box input {
     height: 100%;
     width: 100%;
@@ -234,6 +235,13 @@ form .input-box input {
     text-align: center;
 
 }
+
+.input-box.button input {
+    width: 50%;
+    
+}
+
+
 
 /* Movie in outdoornews.html */ 
 
